@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #2c2c2c;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-size: 30px;
+    margin: -19px;
+
+}
+
+
+
+.logo img {
+    width: 40px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 50px;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 50px;
+    font-weight: bold;
+    font-variant-caps: all-petite-caps;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 16vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 7px 0 50px;
+    padding: 0 12px;
+}
+
+main {
+    background-color: #00F0FF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+    display: flex;
+}
+
+.container img {
+    width: 300px;
+    height: 303px;
+    padding: 142px 0px 50px 30px;
+
+}
+
+.detail-box {
+    margin-right: 10px;
+    padding-top: 150px;
+    margin-left: 70px;
+
+}
+
+.detail-box h1 span {
+    font-size: 4rem;
+    font-weight: bold;
+    display: contents;
+}
+
+footer {
+    background-color: #2c2c2c;
+    height: 60px;
+}
+
+.social-container {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-container P {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.tele {
+    color: white;
+    display: flex;
+    padding-left: 708px;
+    padding-right: 20px;
+}
